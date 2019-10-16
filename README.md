@@ -44,6 +44,7 @@ console.log(`string ${javascript} string string`);
 ### String methods
 
 `.repeat(num)` - repeats a string the desired number of times
+
 `.replace('old', 'new')` - replace first instance of the desired string
 
 ### Converting a number to a string
