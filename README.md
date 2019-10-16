@@ -33,6 +33,19 @@ As opposed to:
 const desiredElement = document.querySelector('#randomId');
 desiredElement.style.color = 'red';
 ```
+### String interpolation
+
+Used to insert javascript (variables, functions, booleans, return values, etc.) into a string. Place entire string (including javascript) in back ticks "`" and place javascript in curly braces "{}" preceded by "$".
+
+*Example:*
+```
+console.log(`string ${javascript} string string`);
+```
+### String methods
+
+`.repeat(num)` - repeats a string the desired number of times
+`.replace('old', 'new')` - replace first instance of the desired string
+
 ### Converting a number to a string
 
 `toString`
