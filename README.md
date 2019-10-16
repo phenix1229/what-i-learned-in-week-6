@@ -6,7 +6,7 @@
 2. Continuation check
 3. Change
 
-example:
+*Example:*
 ```
 let num = 1;
 
@@ -16,3 +16,27 @@ while(num < 10){
 }
 ```
 `i` - common shorthand for integer
+
+---
+
+## Miscellaneous
+
+### Dot chaining
+A quicker way to accomplish a task rather than assigning multiple variables.
+
+*Example:*
+```
+document.querySelector('#randomId').style. color ='red'
+
+As opposed to:
+
+const desiredElement = document.querySelector('#randomId');
+desiredElement.style.color = 'red';
+```
+### Converting a number to a string
+
+`toString`
+
+`5 + '' = '5'`
+
+---
