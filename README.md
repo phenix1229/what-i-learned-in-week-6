@@ -19,6 +19,19 @@ while(num < 10){
 
 ---
 
+## Array basics
+
+`arrayName = ['x', 'y', 'z']` - create an array
+
+### Array methods
+
+* `.push` - adds an item to the end of an array
+* `.pop` - removes the last item from the array (no arguments needed)
+* `.shift` - removes the first item in an array
+* `.unshift` - inserts an item in the first index (0) of an array
+  
+---
+
 ## Miscellaneous
 
 ### Dot chaining
@@ -43,9 +56,9 @@ console.log(`string ${javascript} string string`);
 ```
 ### String methods
 
-`.repeat(num)` - repeats a string the desired number of times
-
-`.replace('old', 'new')` - replace first instance of the desired string
+* `.repeat(num)` - repeats a string the desired number of times
+* `.replace('old', 'new')` - replace first instance of the desired string
+* `.includes('thingToCheckFor')` - search a string to check if it contains an item 
 
 ### Converting a number to a string
 
